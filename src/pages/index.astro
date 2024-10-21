@@ -1,5 +1,7 @@
 ---
-
+// Server Only
+const name="Reynaldo Choque"
+const title="Fundamentos de Astro"
 ---
 
 <html lang="en">
@@ -8,9 +10,9 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Fundamentos de Astro</title>
+		<title>{title}</title>
 	</head>
 	<body>
-		<h1>Reynaldo Choque</h1>
+		<h1>{name}</h1>
 	</body>
 </html>
